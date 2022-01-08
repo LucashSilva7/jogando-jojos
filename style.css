@@ -31,7 +31,8 @@ div#cubomenu{
 nav{
     padding: 10px;
     background-color: var(--cor2);
-    width: 70px;
+    min-width: 70px;
+    max-width: 70px;
     height: 40px;
     border-radius: 5px 5px;
     transition-duration: 1s;

@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-@import url ('https://fonts.googleapis.com/css2? family = Noto + Serif: ital, wght @ 0,400; 0,700; 1,400; 1,700 & display = swap');
 
 
 :root{
@@ -124,6 +123,8 @@ footer{
     font-weight: 100;
     background-color: black;
     padding: 5px;
+
+    margin-bottom: -100px;
 }
 
 a#eu{

@@ -18,7 +18,7 @@
 
 
 header{
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.384);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.384);
 }
 
 
@@ -93,8 +93,45 @@ body{
 main{
     min-width: 200px;
     max-width: 1180px;
+    height: 500px;
     padding: 0px 30px;
     margin: auto;    
     background-color: whitesmoke;
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.39);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.39);
+    margin-bottom: 30px;
+}
+
+
+
+
+h1#titulo{
+    padding: 15px 30px;
+    background-color: rgba(128, 128, 128, 0.151);
+}
+
+p{
+    padding: 10px;
+}
+
+
+footer{
+    text-align: center;
+    font-size: 0.8em;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+a#eu{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 1px;
+}
+
+a#eu:hover{
+    text-decoration: underline;
+    background-color: var(--cor1);
+    border-radius: 1px;
+
 }

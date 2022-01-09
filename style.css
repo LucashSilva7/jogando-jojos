@@ -57,6 +57,7 @@ nav p{
 }
 
 nav a{
+ 
     width: 150px;
     padding: 0px 5px;
     color: transparent;
@@ -64,11 +65,7 @@ nav a{
 
 }
 
-nav > a{
-    
-    color: transparent;
-    
-}
+
 
 nav:hover > a{
     display: block;
@@ -84,6 +81,8 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
+
 
 
 
@@ -129,24 +128,32 @@ isso é um jeito não muito eficiente*/
 footer{
     text-align: center;
     font-size: 0.8em;
-    color: white;
+    color: rgba(255, 255, 255, 0.548);
     font-weight: 100;
     background-color: black;
-    padding: 5px;
-    position: relative;
+    padding:  5px 5px;
+    font-family: sans-serif;
+
+    width: 96%;
+    bottom: -0%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, 0%);
+    
 
 }
 
 a#eu{
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    
     padding: 1px;
 }
 
 a#eu:hover{
+    font-weight: bold;
     text-decoration: underline;
-    background-color: var(--cor1);
+
     border-radius: 1px;
     
 }

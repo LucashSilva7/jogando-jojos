@@ -20,6 +20,8 @@
 
 header{
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.384);
+    min-width: 100px;
+    max-width: 100%;
 }
 
 
@@ -59,6 +61,7 @@ nav a{
     padding: 0px 5px;
     color: transparent;
     transition-duration: 0.1s;
+
 }
 
 nav > a{
@@ -95,7 +98,7 @@ body{
 
 
 main{
-    min-width: 200px;
+    min-width: 100px;
     max-width: 1180px;
     height: 500px;
     padding: 0px 30px;
@@ -117,6 +120,11 @@ p{
     padding: 10px;
 }
 
+/*problemas de alinhamento no footer
+ainda não sei como, mas quero alinhar ele no viewport em
+baixo, poderia só alterar o margin da caixa de cima, mas 
+isso é um jeito não muito eficiente*/
+
 
 footer{
     text-align: center;
@@ -125,8 +133,8 @@ footer{
     font-weight: 100;
     background-color: black;
     padding: 5px;
+    position: relative;
 
-    margin-bottom: -100px;
 }
 
 a#eu{
@@ -140,5 +148,5 @@ a#eu:hover{
     text-decoration: underline;
     background-color: var(--cor1);
     border-radius: 1px;
-
+    
 }

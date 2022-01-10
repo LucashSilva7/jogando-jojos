@@ -56,18 +56,17 @@ nav p{
     background-color: var(--cor2);
 }
 
-nav a{
- 
+nav a{  
     width: 150px;
     padding: 0px 5px;
     color: transparent;
     transition-duration: 0.1s;
-
+  
 }
 
 
-
 nav:hover > a{
+
     display: block;
     color: black;
     transition-duration: 1s;
@@ -104,7 +103,6 @@ main{
     margin: auto;    
     background-color: whitesmoke;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.39);
-    margin-bottom: 30px;
 }
 
 
@@ -125,20 +123,24 @@ baixo, poderia só alterar o margin da caixa de cima, mas
 isso é um jeito não muito eficiente*/
 
 
+
+
 footer{
     text-align: center;
     font-size: 0.8em;
     color: rgba(255, 255, 255, 0.548);
     font-weight: 100;
     background-color: black;
-    padding:  5px 5px;
+    padding:  5px 0px;
     font-family: sans-serif;
 
-    width: 96%;
-    bottom: -0%;
+
+    min-width: 100%;
+  
     left: 50%;
-    position: fixed;
-    transform: translate(-50%, 0%);
+    bottom: 0%;
+    position: absolute;
+    transform: translate(-50%);
     
 
 }
